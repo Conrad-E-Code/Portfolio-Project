@@ -1,0 +1,31 @@
+GOALS FOR THE PROJECT:
+Basic Frontend,
+Some Styling
+Nav bar showing project demos, Technical Resume, Contact Info
+stretch goal
+SHOW VIDEOS OF STD OUT FROM RAILS SERVER ON FRONTEND FOR DIFFERENT REQUESTS. 
+
+
+
+App Component
+    NavBAr
+
+    ProjectPage
+    shows Project Cards
+        ProjectCard
+            Title
+            Date
+            CLICK TO VVV
+        Project Detail CArd
+            has embedded demo video
+                About Project
+                Collaborators:
+        Deployed Link
+    Resume Page
+    
+    Contact
+
+    Linkedin:
+    GitHub:
+    Check out my Blog:
+
