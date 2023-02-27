@@ -5,7 +5,7 @@ function ImageCard({image, details, link}) {
     return(
         <a href={link}>
         <div  className="img-card">
-            <img width={50} height={50}
+            <img width={75} height={75}
             className="icon" src={image} 
             alt="Image"/> 
             <span className="img-detail">{details}</span>
