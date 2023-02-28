@@ -12,6 +12,52 @@ function App() {
   let homeCont = "Experienced Full Stack Software Engineer with expertise in Ruby, Rails, React, JavaScript. Adept at collaborating with cross-functional teams to develop innovative software solutions that improve the end-user experience. Also experienced in mobile mechanic and special projects management, with a background in lab analysis."
   let projects = [
     { points: [
+      "Created a bcrypt-based secure authentication solution, protecting sensitive user information on a Rails API.",
+    "Deployed a secure password reset feature utilizing Rails ActionMailer; Streamlined React front end user experience. ",
+    "Integrated ActionMailer to deliver real-time notifications to users during dynamic peer-to-peer exchanges, streamlining communication and improving the user experience."],
+    demo: <iframe width="560" height="315" src="https://www.youtube.com/embed/xauTR2pW6wI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>,
+    name: "do_ber",
+    deployed: false,
+    details: "DO_BER",
+    image: campBCaster,
+    deploy_link: "",
+    desc: "Online marketplace allowing users to make their underutilized equipment available to others for temporary use.",
+    implemented: [
+      {
+        image: railsLogo,
+        details: "Ruby on Rails",
+        link: "https://rubyonrails.org/"
+    },
+      {
+        image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+        details: "React",
+        link: "https://reactjs.org/"
+    },
+    {
+      image: "https://cdn.icon-icons.com/icons2/2415/PNG/512/ruby_plain_logo_icon_146361.png",
+      details: "Ruby",
+      link: "https://www.ruby-lang.org/en/"
+    },
+    {
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png",
+    details: "JavaScript",
+    link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+    },
+    {
+      image: railsLogo,
+      details: "Action Mailer",
+      link: "https://guides.rubyonrails.org/action_mailer_basics.html"
+  },
+    {
+      image: "https://www.postgresql.org/media/img/about/press/elephant.png",
+      details: "PostgreSQL",
+      link: "https://www.postgresql.org/"
+      }
+
+
+    ]
+  },
+    { points: [
       "Configured Rails API routing to direct client requests to appropriate server actions and serialize a JSON response.",
     "Implemented bcrypt authentication. using encrypted cookies requiring users to sign in to access private content. ",
     "Executed user stories and model relationships in a deliberate manner to minimize code rewriting."],
@@ -74,16 +120,17 @@ function App() {
       details: "Sinatra",
       link: "https://sinatrarb.com/documentation.html"
   },
-  {
-    image: "https://cdn.icon-icons.com/icons2/2415/PNG/512/ruby_plain_logo_icon_146361.png",
-    details: "Ruby",
-    link: "https://www.ruby-lang.org/en/"
-},
+
 {
   image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png",
   details: "JavaScript",
   link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
   }, 
+  {
+    image: "https://cdn.icon-icons.com/icons2/2415/PNG/512/ruby_plain_logo_icon_146361.png",
+    details: "Ruby",
+    link: "https://www.ruby-lang.org/en/"
+},
 
 
     ]
@@ -132,7 +179,33 @@ function App() {
     details: "Trailer Depot",
     image: trailerDepot,
     deploy_link: "",
-    desc: "My first React app. A single page web app marketplace. "
+    desc: "My first React app. A single page web app marketplace. ",
+    implemented: [  
+      {
+        image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+        details: "React",
+        link: "https://reactjs.org/"
+    },      
+      {
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png",
+      details: "JavaScript",
+      link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      }, 
+      {
+        image: "https://cdn.icon-icons.com/icons2/2790/PNG/512/html_filetype_icon_177535.png",
+        details: "HTML",
+        link: "https://developer.mozilla.org/en-US/docs/Web/HTML"
+      },
+      {
+        image: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+        details: "GitHub",
+        link: "https://github.com/Conrad-E-Code"
+      },    
+      {
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+      details: "CSS",
+      link: "https://developer.mozilla.org/en-US/docs/Web/CSS"
+      },]
   },
 
   ]
@@ -185,7 +258,7 @@ function App() {
       <Routes>
           <Route element={<ProjectPage header="Projects" map={projects} page="projects" />} path="/projects"/>
           <Route element={<ProjectPage header="Skills" map={skills} page="skills" />} path="/skills" />
-          <Route element={<HomePage header={homeHead} content={homeCont} />} path="/"/>
+          <Route element={<HomePage header={homeHead} content={homeCont} />} path="/Portfolio-Project"/>
       </Routes>
       
     </div>

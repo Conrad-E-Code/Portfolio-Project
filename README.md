@@ -1,31 +1,7 @@
-GOALS FOR THE PROJECT:
-Basic Frontend,
-Some Styling
-Nav bar showing project demos, Technical Resume, Contact Info
-stretch goal
-SHOW VIDEOS OF STD OUT FROM RAILS SERVER ON FRONTEND FOR DIFFERENT REQUESTS. 
+Thanks For Checking Out My Portfolio!
 
+This is a simple react front-end created to present some of my technical projects and technologies I am familiar with.
+It reuses components and incorporates thinking in react principles.
 
-
-App Component
-    NavBAr
-
-    ProjectPage
-    shows Project Cards
-        ProjectCard
-            Title
-            Date
-            CLICK TO VVV
-        Project Detail CArd
-            has embedded demo video
-                About Project
-                Collaborators:
-        Deployed Link
-    Resume Page
-    
-    Contact
-
-    Linkedin:
-    GitHub:
-    Check out my Blog:
-
+Deployed using github pages:
+https://github.com/gitname/react-gh-pages
