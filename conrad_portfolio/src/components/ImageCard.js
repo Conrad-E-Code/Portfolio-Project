@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom"
 function ImageCard({image, details, link}) {
 
     return(
-        <a href={link}>
+        <a className="image-a" href={link}>
         <div  className="img-card">
             <img width={75} height={75}
             className="icon" src={image} 

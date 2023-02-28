@@ -2,9 +2,11 @@
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 .App {
+  align-content: center;
   text-align: center;
   background-color: rgb(29, 97, 175);
    min-height: 100vh;
+   
 }
   
 /* } (max-width: 800px) {
@@ -18,6 +20,8 @@
   max-width: fit-content;
   margin-left: auto;
   border-radius: 6px;
+  position: fixed;
+  z-index: 1;
 }
 .nav-link {
   margin:auto;
@@ -56,7 +60,7 @@
 }
 .home-cont {
   font-weight: bold;
-  color:rgb(255, 255, 255)
+  color:rgb(255, 255, 255);
 }
 /* .icon {
 
@@ -73,17 +77,30 @@
   
   
 }
+.skill-desc {
+  color: aliceblue;
+  position: fixed;
+  margin: auto;
+  text-align: center;
+  min-width: 100vw;
+  z-index: 1;
+  cursor: pointer;
+}
 .img-detail {
   color: aliceblue;
   margin: auto;
   font-weight: bold;
   font-size: 25px;
 }
+.tech-used{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:row-reverse;
+}
 .img-card:hover{
   color: greenyellow;
   border-color: greenyellow;
-  /* transform: rotate(180deg); */
-  -webkit-transition: -webkit-transform 0.3s ease-in;
+  -webkit-transition: -webkit-transform 0.5s ease-in;
   
   transform: scale(1.1);
 
@@ -98,11 +115,69 @@ a {
   flex-wrap: wrap;
   flex-direction:row-reverse;
 }
+.image-a {
+  width: 266px;
+}
+.page-spin {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:row-reverse;
+}
+.page-spin .img-card {
+  min-height: 250px;
+  border-radius: 60px;
+}
+.page-spin .img-card:hover {
+transform: rotate(344deg);
+
+}
+.page-spin .img-card img {
+  display: none;
+}
 h1 {
   color: aliceblue;
 }
+.proj-card {
+  padding: 5px;
+  border: solid;
+  border-width: 2px;
+  border-radius: 6px;
+  border-color: aliceblue;
+  background-color: rgb(38, 163, 247);
+  margin: auto;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  width: 70vw;
+}
+/* .proj-card:hover {
+  -webkit-transition: -webkit-transform 0.5s ease-in;
+  transform: scale(1.05);
+} */
+.proj-card p {
+  display: none;
+}
+.button {
+  background-color: rgb(52, 147, 209);
+  color: aliceblue;
+  cursor: pointer;
+  border-radius: 5px;
+  border-color: rgb(29, 97, 175);
+  font-weight: bold;
+}
+.bullet {
+  text-align: left;
+}
+.button:hover {
+  transform: scale(1.1);
+  background-color: rgb(58, 175, 252)
+}
 @media(max-width: 480px) {
   .page {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .page-spin {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
