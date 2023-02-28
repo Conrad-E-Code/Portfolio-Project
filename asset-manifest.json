@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Project/static/css/main.2cb673cc.css",
+    "main.js": "/Portfolio-Project/static/js/main.ca80c96d.js",
+    "static/js/787.4028a501.chunk.js": "/Portfolio-Project/static/js/787.4028a501.chunk.js",
+    "static/media/jf.png": "/Portfolio-Project/static/media/jf.0ac90542f42999e72a5a.png",
+    "static/media/trailer_depot.jpg": "/Portfolio-Project/static/media/trailer_depot.9e39fb69e2dec4a4e84a.jpg",
+    "static/media/campus_bcaster.jpg": "/Portfolio-Project/static/media/campus_bcaster.90a8a2792d1200eec709.jpg",
+    "static/media/rails-logo.png": "/Portfolio-Project/static/media/rails-logo.3af7a554b0d6768cb213.png",
+    "index.html": "/Portfolio-Project/index.html",
+    "main.2cb673cc.css.map": "/Portfolio-Project/static/css/main.2cb673cc.css.map",
+    "main.ca80c96d.js.map": "/Portfolio-Project/static/js/main.ca80c96d.js.map",
+    "787.4028a501.chunk.js.map": "/Portfolio-Project/static/js/787.4028a501.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2cb673cc.css",
+    "static/js/main.ca80c96d.js"
+  ]
+}
