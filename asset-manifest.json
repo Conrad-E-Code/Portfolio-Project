@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/Portfolio-Project/static/css/main.fd5e184d.css",
-    "main.js": "/Portfolio-Project/static/js/main.643ca3d1.js",
+    "main.js": "/Portfolio-Project/static/js/main.083bb7b2.js",
     "static/js/787.4028a501.chunk.js": "/Portfolio-Project/static/js/787.4028a501.chunk.js",
     "static/media/jf.png": "/Portfolio-Project/static/media/jf.0ac90542f42999e72a5a.png",
     "static/media/trailer_depot.jpg": "/Portfolio-Project/static/media/trailer_depot.9e39fb69e2dec4a4e84a.jpg",
     "static/media/campus_bcaster.jpg": "/Portfolio-Project/static/media/campus_bcaster.90a8a2792d1200eec709.jpg",
+    "static/media/ruby.png": "/Portfolio-Project/static/media/ruby.ebe8edbf8229e935874f.png",
     "static/media/rails-logo.png": "/Portfolio-Project/static/media/rails-logo.3af7a554b0d6768cb213.png",
     "index.html": "/Portfolio-Project/index.html",
     "main.fd5e184d.css.map": "/Portfolio-Project/static/css/main.fd5e184d.css.map",
-    "main.643ca3d1.js.map": "/Portfolio-Project/static/js/main.643ca3d1.js.map",
+    "main.083bb7b2.js.map": "/Portfolio-Project/static/js/main.083bb7b2.js.map",
     "787.4028a501.chunk.js.map": "/Portfolio-Project/static/js/787.4028a501.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fd5e184d.css",
-    "static/js/main.643ca3d1.js"
+    "static/js/main.083bb7b2.js"
   ]
 }
