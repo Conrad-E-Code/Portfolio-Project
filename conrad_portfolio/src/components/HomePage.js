@@ -4,6 +4,7 @@ function HomePage({header, content}) {
     return(
         <div className="home">
             <h1 className="home-head" >{header}</h1>
+            <h2 style={{color:"aliceblue",textDecoration:"underline"}}>About Me:</h2>
             <div className="page">
             <div className="home-cont">{content}</div>
             <ImageCard image="https://media.licdn.com/dms/image/D4E35AQFHfxrpKT0lFQ/profile-framedphoto-shrink_200_200/0/1668398441886?e=1678096800&v=beta&t=notHneKgTSOz4nNoPeP6kK30Bq9M2b-80-fXzTkL75c"

@@ -6,12 +6,12 @@ function ProjectCard({image, details, deploy_link, desc, deployed, name, demo, p
     const [showDetails, setShowDetails] = useState(false)
     function handleEnter() {
         console.log("handleEnter")
-        setShow((prev) => prev = true)
+        setShow((prev) => prev = !prev)
         console.log(show)
     }
     function handleExit() {
         console.log("handleExit")
-        setShow((prev) => prev = false)
+        setShow((prev) => prev = !prev)
         console.log(show)
     }
     function handleShowDetails() {
@@ -19,16 +19,17 @@ function ProjectCard({image, details, deploy_link, desc, deployed, name, demo, p
         setShowDetails((prev) => prev = !prev)
     }
     return (
-            <div onMouseEnter={handleEnter} onMouseLeave={handleExit}  className="proj-card">
-                {show && deployed? <Link to={deploy_link}> <button className="button">Deployed Site</button></Link>:null}
-                {show ? <button onClick={handleShowDetails} className="button">{showDetails ? "Hide Details" : "Show Details"}</button> : null}
+            <div  className="proj-card">
+                {deployed? <Link to={deploy_link}> <button className="button">Deployed Site</button></Link>:null}
+                {<button onClick={handleShowDetails} className="button">{showDetails ? "Hide Details" : "Show Details"}</button>}
                 <h1>{details}</h1>
                 <h3 style={{"color": "aliceblue"}}>{desc}</h3>
                 {showDetails ? <ul>{points? points.map((point)=>{
                     return(
                         <li style={{"color": "aliceblue"}}className="bullet">{point}</li>
                     )
-                }): null}</ul> : demo === "" ? <img height={250} width={250} src={image} /> : demo}
+                }): null}</ul> : demo === "" ? <img height={250} width={250} src={image} /> : null}
+                {demo}
                 {implemented && showDetails ? <h3 style={{"color": "aliceblue"}}>Technologies Implemented in This Project:</h3> : null}
                 <div className="tech-used">
                     
