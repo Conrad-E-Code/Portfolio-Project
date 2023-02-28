@@ -7,6 +7,8 @@ import railsLogo from "./images/rails-logo.png"
 import jokeFactory from "./images/jf.png"
 import trailerDepot from "./images/trailer_depot.jpg"
 import campBCaster from "./images/campus_bcaster.jpg"
+import rubyIcon from "./images/ruby.png"
+import htmlIcon from "./images/html_icon.png"
 function App() {
   let homeHead = "Conrad Etherington"
   let homeCont = "Experienced Full Stack Software Engineer with expertise in Ruby, Rails, React, JavaScript. Adept at collaborating with cross-functional teams to develop innovative software solutions that improve the end-user experience. Also experienced in mobile mechanic and special projects management, with a background in lab analysis."
@@ -34,7 +36,7 @@ function App() {
         link: "https://reactjs.org/"
     },
     {
-      image: "https://cdn.icon-icons.com/icons2/2415/PNG/512/ruby_plain_logo_icon_146361.png",
+      image: rubyIcon,
       details: "Ruby",
       link: "https://www.ruby-lang.org/en/"
     },
@@ -80,7 +82,7 @@ function App() {
         link: "https://reactjs.org/"
     },
     {
-      image: "https://cdn.icon-icons.com/icons2/2415/PNG/512/ruby_plain_logo_icon_146361.png",
+      image: rubyIcon,
       details: "Ruby",
       link: "https://www.ruby-lang.org/en/"
     },
@@ -127,7 +129,7 @@ function App() {
   link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
   }, 
   {
-    image: "https://cdn.icon-icons.com/icons2/2415/PNG/512/ruby_plain_logo_icon_146361.png",
+    image: rubyIcon,
     details: "Ruby",
     link: "https://www.ruby-lang.org/en/"
 },
@@ -151,7 +153,7 @@ function App() {
         link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
         }, 
         {
-          image: "https://cdn.icon-icons.com/icons2/2790/PNG/512/html_filetype_icon_177535.png",
+          image: htmlIcon,
           details: "HTML",
           link: "https://developer.mozilla.org/en-US/docs/Web/HTML"
         },
@@ -192,7 +194,7 @@ function App() {
       link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
       }, 
       {
-        image: "https://cdn.icon-icons.com/icons2/2790/PNG/512/html_filetype_icon_177535.png",
+        image: htmlIcon,
         details: "HTML",
         link: "https://developer.mozilla.org/en-US/docs/Web/HTML"
       },
@@ -216,7 +218,7 @@ function App() {
         link: "https://reactjs.org/"
     },
     {
-        image: "https://cdn.icon-icons.com/icons2/2415/PNG/512/ruby_plain_logo_icon_146361.png",
+        image: rubyIcon,
         details: "Ruby",
         link: "https://www.ruby-lang.org/en/"
     },
@@ -231,7 +233,7 @@ function App() {
         link: "https://rubyonrails.org/"
     },
     {
-        image: "https://cdn.icon-icons.com/icons2/2790/PNG/512/html_filetype_icon_177535.png",
+        image: htmlIcon,
         details: "HTML",
         link: "https://developer.mozilla.org/en-US/docs/Web/HTML"
     },
