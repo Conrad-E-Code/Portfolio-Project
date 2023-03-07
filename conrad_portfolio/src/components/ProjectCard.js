@@ -6,12 +6,12 @@ function ProjectCard({image, details, deploy_link, desc, deployed, name, demo, p
     const [showDetails, setShowDetails] = useState(false)
     function handleEnter() {
         console.log("handleEnter")
-        setShow((prev) => prev = !prev)
+        setShowDetails((prev) => prev = true)
         console.log(show)
     }
     function handleExit() {
         console.log("handleExit")
-        setShow((prev) => prev = !prev)
+        setShowDetails((prev) => prev = !prev)
         console.log(show)
     }
     function handleShowDetails() {
@@ -19,16 +19,17 @@ function ProjectCard({image, details, deploy_link, desc, deployed, name, demo, p
         setShowDetails((prev) => prev = !prev)
     }
     return (
-            <div  className="proj-card">
+            <div  className="proj-card" onMouseEnter={handleEnter}>
                 {deployed? <Link to={deploy_link}> <button className="button">Deployed Site</button></Link>:null}
-                {<button onClick={handleShowDetails} className="button">{showDetails ? "Hide Details" : "Show Details"}</button>}
+                {showDetails ? <button onClick={handleShowDetails} className="button">Hide Details</button> : null}
                 <h1>{details}</h1>
                 <h3 style={{"color": "aliceblue"}}>{desc}</h3>
                 {showDetails ? <ul>{points? points.map((point)=>{
                     return(
                         <li style={{"color": "aliceblue"}}className="bullet">{point}</li>
                     )
-                }): null}</ul> : demo === "" ? <img height={250} width={250} src={image} /> : null}
+                }): null}</ul> :  null}
+                {demo === "" ? <img height={250} width={250} src={image} /> : null}
                 {demo}
                 {implemented && showDetails ? <h3 style={{"color": "aliceblue"}}>Technologies Implemented in This Project:</h3> : null}
                 <div className="tech-used">

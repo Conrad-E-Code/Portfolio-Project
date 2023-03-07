@@ -17,7 +17,7 @@ function App() {
       "Created a bcrypt-based secure authentication solution, protecting sensitive user information on a Rails API.",
     "Deployed a secure password reset feature utilizing Rails ActionMailer; Streamlined React front end user experience. ",
     "Integrated ActionMailer to deliver real-time notifications to users during dynamic peer-to-peer exchanges, streamlining communication and improving the user experience."],
-    demo: <iframe width="560" height="315" src="https://www.youtube.com/embed/xauTR2pW6wI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>,
+    demo: <iframe width="560" height="315" src="https://www.youtube.com/embed/xauTR2pW6wI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>,
     name: "do_ber",
     deployed: false,
     details: "DO_BER",
@@ -63,7 +63,7 @@ function App() {
       "Configured Rails API routing to direct client requests to appropriate server actions and serialize a JSON response.",
     "Implemented bcrypt authentication. using encrypted cookies requiring users to sign in to access private content. ",
     "Executed user stories and model relationships in a deliberate manner to minimize code rewriting."],
-    demo: <iframe width="560" height="315" src="https://www.youtube.com/embed/hjBwnxklXGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>,
+    demo: <iframe width="560" height="315" src="https://www.youtube.com/embed/hjBwnxklXGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>,
     name: "burger_shop",
     deployed: false,
     details: "Burger-Shop",
@@ -104,7 +104,7 @@ function App() {
       "Developed a React front-end end with a Sinatra back-end.",
     "Full CRUD functionality with private routing client side and a persistent sign in feature.",
     "Can view, post and like comments and pictures. Likes are associative."],
-    demo: <iframe width="560" height="315" src="https://www.youtube.com/embed/gmRb61TAfho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>,
+    demo: <iframe width="560" height="315" src="https://www.youtube.com/embed/gmRb61TAfho" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>,
     name: "campus_broadcaster",
     deployed: false,
     details: "Campus Broadcaster",
@@ -139,7 +139,7 @@ function App() {
   },
     { points:  ["Dispatched HTTP requests to appropriate API endpoints for jokes and categories using JavaScript.","Configured dynamically rendered form for submitting properly structured POST requests to the correct endpoint.","Conformed to pre-existing API limitations, without sacrificing user functionality, by using creative JS logic and rendering."],
       video: "https://youtu.be/gmRb61TAfho",
-      demo: <iframe width="560" height="315" src="https://www.youtube.com/embed/_vwP_0ux-3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>,
+      demo: <iframe width="560" height="315" src="https://www.youtube.com/embed/_vwP_0ux-3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>,
       name: "joke_factory",
       deployed: true,
       details: "The Joke Factory",
@@ -256,12 +256,14 @@ function App() {
   //let homeCont = <img src='https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80' width={250} height={250} alt="IMAGE" />
   return (
     <div className="App">
-      <NavBar />
+      <NavBar sticky="top" />
       <Routes>
-          <Route element={<ProjectPage header="Projects" map={projects} page="projects" />} path="/projects"/>
-          <Route element={<ProjectPage header="Skills" map={skills} page="skills" />} path="/skills" />
           <Route element={<HomePage header={homeHead} content={homeCont} />} path="/Portfolio-Project"/>
       </Routes>
+      <ProjectPage  header="Skills" map={skills} page="skills" />
+      <ProjectPage  header="Projects" map={projects} page="projects" />
+
+      
       
     </div>
   );

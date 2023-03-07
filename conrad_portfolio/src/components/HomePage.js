@@ -2,7 +2,7 @@ import ImageCard from "./ImageCard"
 import ProjectPage from "./ProjectPage"
 function HomePage({header, content}) {
     return(
-        <div className="home">
+        <div id="home" className="home">
             <h1 className="home-head" >{header}</h1>
             <h2 style={{color:"aliceblue",textDecoration:"underline"}}>About Me:</h2>
             <div className="page">
