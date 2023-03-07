@@ -7,6 +7,8 @@ import railsLogo from "./images/rails-logo.png"
 import jokeFactory from "./images/jf.png"
 import trailerDepot from "./images/trailer_depot.jpg"
 import campBCaster from "./images/campus_bcaster.jpg"
+import rubyIcon from "./images/ruby.png"
+import htmlIcon from "./images/html_icon.png"
 function App() {
   let homeHead = "Conrad Etherington"
   let homeCont = "Experienced Full Stack Software Engineer with expertise in Ruby, Rails, React, JavaScript. Adept at collaborating with cross-functional teams to develop innovative software solutions that improve the end-user experience. Also experienced in mobile mechanic and special projects management, with a background in lab analysis."
@@ -34,7 +36,7 @@ function App() {
         link: "https://reactjs.org/"
     },
     {
-      image: "https://cdn.icon-icons.com/icons2/2415/PNG/512/ruby_plain_logo_icon_146361.png",
+      image: rubyIcon,
       details: "Ruby",
       link: "https://www.ruby-lang.org/en/"
     },
@@ -61,7 +63,7 @@ function App() {
       "Configured Rails API routing to direct client requests to appropriate server actions and serialize a JSON response.",
     "Implemented bcrypt authentication. using encrypted cookies requiring users to sign in to access private content. ",
     "Executed user stories and model relationships in a deliberate manner to minimize code rewriting."],
-    demo: <iframe width="560" height="315" src="https://www.youtube.com/embed/hjBwnxklXGg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>,
+    demo: <iframe width="560" height="315" src="https://www.youtube.com/embed/HOwH0amIUHg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>,
     name: "burger_shop",
     deployed: false,
     details: "Burger-Shop",
@@ -80,7 +82,7 @@ function App() {
         link: "https://reactjs.org/"
     },
     {
-      image: "https://cdn.icon-icons.com/icons2/2415/PNG/512/ruby_plain_logo_icon_146361.png",
+      image: rubyIcon,
       details: "Ruby",
       link: "https://www.ruby-lang.org/en/"
     },
@@ -127,7 +129,7 @@ function App() {
   link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
   }, 
   {
-    image: "https://cdn.icon-icons.com/icons2/2415/PNG/512/ruby_plain_logo_icon_146361.png",
+    image: rubyIcon,
     details: "Ruby",
     link: "https://www.ruby-lang.org/en/"
 },
@@ -137,7 +139,7 @@ function App() {
   },
     { points:  ["Dispatched HTTP requests to appropriate API endpoints for jokes and categories using JavaScript.","Configured dynamically rendered form for submitting properly structured POST requests to the correct endpoint.","Conformed to pre-existing API limitations, without sacrificing user functionality, by using creative JS logic and rendering."],
       video: "https://youtu.be/gmRb61TAfho",
-      demo: <iframe width="560" height="315" src="https://www.youtube.com/embed/_vwP_0ux-3g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>,
+      demo: <iframe width="560" height="315" src="https://www.youtube.com/embed/Cu9-ilwZSJ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>,
       name: "joke_factory",
       deployed: true,
       details: "The Joke Factory",
@@ -151,7 +153,7 @@ function App() {
         link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
         }, 
         {
-          image: "https://cdn.icon-icons.com/icons2/2790/PNG/512/html_filetype_icon_177535.png",
+          image: htmlIcon,
           details: "HTML",
           link: "https://developer.mozilla.org/en-US/docs/Web/HTML"
         },
@@ -192,7 +194,7 @@ function App() {
       link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
       }, 
       {
-        image: "https://cdn.icon-icons.com/icons2/2790/PNG/512/html_filetype_icon_177535.png",
+        image: htmlIcon,
         details: "HTML",
         link: "https://developer.mozilla.org/en-US/docs/Web/HTML"
       },
@@ -216,7 +218,7 @@ function App() {
         link: "https://reactjs.org/"
     },
     {
-        image: "https://cdn.icon-icons.com/icons2/2415/PNG/512/ruby_plain_logo_icon_146361.png",
+        image: rubyIcon,
         details: "Ruby",
         link: "https://www.ruby-lang.org/en/"
     },
@@ -231,7 +233,7 @@ function App() {
         link: "https://rubyonrails.org/"
     },
     {
-        image: "https://cdn.icon-icons.com/icons2/2790/PNG/512/html_filetype_icon_177535.png",
+        image: htmlIcon,
         details: "HTML",
         link: "https://developer.mozilla.org/en-US/docs/Web/HTML"
     },
