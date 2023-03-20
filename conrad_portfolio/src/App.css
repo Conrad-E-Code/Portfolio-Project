@@ -19,9 +19,9 @@
   overflow: hidden;
   padding-top: 4px;
   background-color:rgb(41, 39, 39);
-  height: 30px;
+  height: 40px;
   width: 100vw;
-  margin-left: auto;
+
   border-radius: 6px;
   position: fixed;
   top: 0;
@@ -34,11 +34,44 @@
   padding-left: 5px;
   padding-right: 5px;
   font-weight:500;
+  font-size: larger;
   color: white;
   text-decoration: none;
   letter-spacing: 1px;
   border: solid;
   border-color: transparent;
+}
+.social-link {
+  margin:auto;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: solid;
+  border-color: transparent;
+}
+.social-link-end {
+  margin:auto;
+  margin-left: 5px;
+  margin-right: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: solid;
+  border-color: transparent;
+}
+.social-link:hover {
+  color: chartreuse;
+  background-color: darkslategray;
+  border: solid;
+  border-radius: 6px;
+
+}
+.social-link-end:hover {
+  color: chartreuse;
+  background-color: darkslategray;
+  border: solid;
+  border-radius: 6px;
+
 }
 .nav-link:hover {
   color: chartreuse;
@@ -117,7 +150,7 @@
 a {
   text-decoration: none;
   max-width: 45%;
-  margin: 20px
+  margin: 1px
 }
 .page{
   display: flex;
@@ -157,8 +190,8 @@ h1 {
   border-color: aliceblue;
   background-color: rgb(38, 163, 247);
   margin: auto;
-  margin-bottom: 9px;
-  margin-top: 9px;
+  margin-bottom: 22px;
+  margin-top: 22px;
   width: 70vw;
 }
 .proj-card:hover {

@@ -257,6 +257,7 @@ function App() {
   return (
     <div className="App">
       <NavBar sticky="top" />
+      <div id="Home"style={{height:"35px"}}></div>
       <Routes>
           <Route element={<HomePage header={homeHead} content={homeCont} />} path="/Portfolio-Project"/>
       </Routes>
