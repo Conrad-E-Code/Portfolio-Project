@@ -35,9 +35,9 @@ function ProjectPage({header, map, page}) {
         },
     ]
     return(
-        <>
-            <h1>{header}</h1>
-            <div className="page">
+        <><div id={`${header}`}style={{height:"35px"}}></div>
+            <h1 >{header}</h1>
+            <div id="projects" className="page">
                 {page === "skills" ? <a href="https://conrad-e-code.github.io/The-Joke-Factory/" className="skill-desc">I build things!
                 </a> : null}
 

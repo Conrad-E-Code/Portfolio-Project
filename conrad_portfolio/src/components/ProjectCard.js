@@ -6,12 +6,12 @@ function ProjectCard({image, details, deploy_link, desc, deployed, name, demo, p
     const [showDetails, setShowDetails] = useState(false)
     function handleEnter() {
         console.log("handleEnter")
-        setShow((prev) => prev = !prev)
+        setShowDetails((prev) => prev = true)
         console.log(show)
     }
     function handleExit() {
         console.log("handleExit")
-        setShow((prev) => prev = !prev)
+        setShowDetails((prev) => prev = !prev)
         console.log(show)
     }
     function handleShowDetails() {
@@ -28,7 +28,8 @@ function ProjectCard({image, details, deploy_link, desc, deployed, name, demo, p
                     return(
                         <li style={{"color": "aliceblue"}}className="bullet">{point}</li>
                     )
-                }): null}</ul> : demo === "" ? <img height={250} width={250} src={image} /> : null}
+                }): null}</ul> :  null}
+                {demo === "" ? <img height={250} width={250} src={image} /> : null}
                 {demo}
                 {implemented && showDetails ? <h3 style={{"color": "aliceblue"}}>Technologies Implemented in This Project:</h3> : null}
                 <div className="tech-used">
