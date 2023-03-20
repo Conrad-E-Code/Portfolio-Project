@@ -19,9 +19,9 @@ function ProjectCard({image, details, deploy_link, desc, deployed, name, demo, p
         setShowDetails((prev) => prev = !prev)
     }
     return (
-            <div  className="proj-card" onMouseEnter={handleEnter}>
+            <div  className="proj-card">
                 {deployed? <Link to={deploy_link}> <button className="button">Deployed Site</button></Link>:null}
-                {showDetails ? <button onClick={handleShowDetails} className="button">Hide Details</button> : null}
+                {<button onClick={handleShowDetails} className="button">{showDetails ? "Hide Details" : "Show Details"}</button>}
                 <h1>{details}</h1>
                 <h3 style={{"color": "aliceblue"}}>{desc}</h3>
                 {showDetails ? <ul>{points? points.map((point)=>{

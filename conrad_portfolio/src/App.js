@@ -9,6 +9,7 @@ import trailerDepot from "./images/trailer_depot.jpg"
 import campBCaster from "./images/campus_bcaster.jpg"
 import rubyIcon from "./images/ruby.png"
 import htmlIcon from "./images/html_icon.png"
+import apiIcon from "./images/api-icon.png"
 function App() {
   let homeHead = "Conrad Etherington"
   let homeCont = "Experienced Full Stack Software Engineer with expertise in Ruby, Rails, React, JavaScript. Adept at collaborating with cross-functional teams to develop innovative software solutions that improve the end-user experience. Also experienced in mobile mechanic and special projects management, with a background in lab analysis."
@@ -251,6 +252,11 @@ function App() {
       image: "https://www.postgresql.org/media/img/about/press/elephant.png",
       details: "PostgreSQL",
       link: "https://www.postgresql.org/"
+      },
+      {
+        image: apiIcon,
+        details: "REST API",
+        link: "https://www.ibm.com/topics/rest-apis"
       }
   ]
   //let homeCont = <img src='https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80' width={250} height={250} alt="IMAGE" />
