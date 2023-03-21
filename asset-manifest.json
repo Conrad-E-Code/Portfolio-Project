@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-Project/static/css/main.2611975d.css",
-    "main.js": "/Portfolio-Project/static/js/main.37c8ee47.js",
+    "main.js": "/Portfolio-Project/static/js/main.52e0dee0.js",
     "static/js/787.4028a501.chunk.js": "/Portfolio-Project/static/js/787.4028a501.chunk.js",
     "static/media/jf.png": "/Portfolio-Project/static/media/jf.0ac90542f42999e72a5a.png",
     "static/media/trailer_depot.jpg": "/Portfolio-Project/static/media/trailer_depot.9e39fb69e2dec4a4e84a.jpg",
@@ -11,11 +11,11 @@
     "static/media/rails-logo.png": "/Portfolio-Project/static/media/rails-logo.3af7a554b0d6768cb213.png",
     "index.html": "/Portfolio-Project/index.html",
     "main.2611975d.css.map": "/Portfolio-Project/static/css/main.2611975d.css.map",
-    "main.37c8ee47.js.map": "/Portfolio-Project/static/js/main.37c8ee47.js.map",
+    "main.52e0dee0.js.map": "/Portfolio-Project/static/js/main.52e0dee0.js.map",
     "787.4028a501.chunk.js.map": "/Portfolio-Project/static/js/787.4028a501.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2611975d.css",
-    "static/js/main.37c8ee47.js"
+    "static/js/main.52e0dee0.js"
   ]
 }
